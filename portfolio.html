@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Central Business Responsive Bootstrap Template</title>
+<title>Central Multi-purpose Free Bootstrap Responsive Template</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
@@ -11,7 +11,6 @@
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
 <link href="css/jcarousel.css" rel="stylesheet" />
 <link href="css/flexslider.css" rel="stylesheet" />
-<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" />
  
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -22,8 +21,9 @@
 </head>
 <body>
 <div id="wrapper">
+
 	<!-- start header -->
-	<header>
+		<header class="page">
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
@@ -36,91 +36,38 @@
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li> 
+                        <li><a href="index.html">Home</a></li> 
 						<li><a href="about.html">About Us</a></li>
 						<li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li class="active"><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="pricing.html">Pricing</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-	</header>
-	<!-- end header -->
-	<section id="featured">
-	 
-	<!-- Slider -->
-        <div id="main-slider" class="flexslider">
-            <ul class="slides">
-              <li>
-                <img src="img/slides/1.jpg" alt="" />
-                <div class="flex-caption">
-                   <div class="item_introtext"> 
-					<strong>Elegance</strong>
-					<p>Go through our website for more</p> </div>
-                </div>
-              </li>
-              <li>
-                <img src="img/slides/2.jpg" alt="" />
-                <div class="flex-caption">
-                     <div class="item_introtext"> 
-					<strong>Bootstrap</strong>
-					<p>Go through our website for more</p> </div>
-                </div>
-              </li>
-              <li>
-                <img src="img/slides/3.jpg" alt="" />
-                <div class="flex-caption">
-                     <div class="item_introtext"> 
-					<strong>Responsiveness</strong>
-					<p>Go through our website for more</p> </div>
-                </div>
-              </li>
-            </ul>
-        </div>
-	<!-- end slider -->
- </section>
-	<section class="heroText">
+	</header><!-- end header -->
+	<section id="inner-headline">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div><h1>Services</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span> </div>
+				<h2 class="pageTitle">Portfolio</h2>
 			</div>
 		</div>
 	</div>
-	
-	<div class="container">
-			<div class="row">
-		<div class="skill-home"> <div class="skill-home-solid clearfix"> 
-		<div class="col-md-3">
-		<span class="icons c1"><i class="fa fa-trophy"></i></span> <div class="box-area">
-		<h3>Web Development</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
-		</div>
-		<div class="col-md-3"> 
-		<span class="icons c2"><i class="fa fa-picture-o"></i></span> <div class="box-area">
-		<h3>UI Design</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
-		</div>
-		<div class="col-md-3"> 
-		<span class="icons c3"><i class="fa fa-desktop"></i></span> <div class="box-area">
-		<h3>Interaction</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
-		</div>
-		<div class="col-md-3"> 
-		<span class="icons c4"><i class="fa fa-globe"></i></span> <div class="box-area">
-		<h3>User Experiance</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
-		</div></div>
-		</div></div>
-		</div> 
-		
-
-	</div>
 	</section>
 	<section id="content">
-	 <div class="container">
-	<!-- Portfolio Projects -->
+	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h4 class="heading">Recent Works</h4>
+				<ul class="portfolio-categ filter">
+					<li class="all active"><a href="#">All</a></li>
+					<li class="web"><a href="#" title="">Web design</a></li>
+					<li class="icon"><a href="#" title="">Mobile App</a></li>
+					<li class="graphic"><a href="#" title="">UI design</a></li>
+				</ul>
+				<div class="clearfix">
+				</div>
 				<div class="row">
 					<section id="projects">
 					<ul id="thumbs" class="portfolio">
@@ -160,6 +107,8 @@
 						<!-- Thumb Image and Description -->
 						<img src="img/works/3.jpg" alt="">
 						</li>
+						<!-- End Item Project -->
+						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
 						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/4.jpg">
@@ -169,69 +118,57 @@
 						<!-- Thumb Image and Description -->
 						<img src="img/works/4.jpg" alt="">
 						</li>
+						<!-- End Item Project -->
+						<!-- Item Project and Filter Name -->
+						<li class="item-thumbs col-lg-3 photography" data-id="id-4" data-type="web">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/5.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb"><h5>Project</h5> <p>Sed ut perspiciaatis unde omnis</p> <i class="icon-info-blocks fa fa-search"></i></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img/works/5.jpg" alt="">
+						</li>
+						<!-- End Item Project -->
+						<!-- Item Project and Filter Name -->
+						<li class="item-thumbs col-lg-3 photography" data-id="id-5" data-type="icon">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/6.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb"><h5>Project</h5> <p>Sed ut perspiciaatis unde omnis</p> <i class="icon-info-blocks fa fa-search"></i></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img/works/6.jpg" alt="">
+						</li>
+						<!-- End Item Project -->
+						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/7.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb"><h5>Project</h5> <p>Sed ut perspiciaatis unde omnis</p> <i class="icon-info-blocks fa fa-search"></i></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img/works/7.jpg" alt="">
+						</li>
+						<!-- End Item Project -->
+						<!-- Item Project and Filter Name -->
+						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="graphic">
+						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/8.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb"><h5>Project</h5> <p>Sed ut perspiciaatis unde omnis</p> <i class="icon-info-blocks fa fa-search"></i></span>
+						</a>
+						<!-- Thumb Image and Description -->
+						<img src="img/works/8.jpg" alt="">
+						</li>
+						<!-- End Item Project -->
 					</ul>
 					</section>
 				</div>
 			</div>
-			</div>
 		</div>
-	
+	</div>
 	</section>
-	<div class="testimonial-area">
-    <div class="testimonial-solid">
-        <div class="container">
-            <div class="testi-icon-area">
-                <div class="quote">
-                    <i class="fa fa-microphone"></i>
-                </div>
-            </div>
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="">
-                        <a href="#"></a>
-                    </li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1" class="">
-                        <a href="#"></a>
-                    </li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
-                        <a href="#"></a>
-                    </li>
-                    <li data-target="#carousel-example-generic" data-slide-to="3" class="">
-                        <a href="#"></a>
-                    </li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                        <p>
-                            <b>- Mark John -</b>
-                        </p>
-                    </div>
-                    <div class="item">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                        <p>
-                            <b>- Jaison Warner -</b>
-                        </p>
-                    </div>
-                    <div class="item active">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                        <p>
-                            <b>- Tony Antonio -</b>
-                        </p>
-                    </div>
-                    <div class="item">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                        <p>
-                            <b>- Leena Doe -</b>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-	
-	
 	<footer>
 	<div class="container">
 		<div class="row">
@@ -239,7 +176,7 @@
 				<div class="widget">
 					<h5 class="widgetheading">Our Contact</h5>
 					<address>
-					<strong>Central company Inc</strong><br>
+					<strong>Centralcompany Inc</strong><br>
 					JC Main Road, Near Silnile tower<br>
 					 Pin-21542 NewYork US.</address>
 					<p>
@@ -271,7 +208,7 @@
 				</div>
 			</div>
 			<div class="col-lg-3">
-				<div class="widget">
+					<div class="widget">
 					<h5 class="widgetheading">Recent News</h5>
 					<ul class="link-list">
 						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
@@ -320,6 +257,5 @@
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
-<script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
 </html>
